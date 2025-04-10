@@ -1,6 +1,6 @@
 import { assertEquals, assertMatch, assertNotEquals } from "@std/assert";
 import { hmac, presign, sha256 } from "../main.ts";
-import vectors from "./hmac.json" with { type: "json" };
+import vectors from "./wycheproof_hmac.json" with { type: "json" };
 
 const s16_b = (hex: string) =>
   Uint8Array.from(hex.match(/../g) ?? [], (Z) => parseInt(Z, 16));
