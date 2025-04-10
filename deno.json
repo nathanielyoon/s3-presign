@@ -1,0 +1,10 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": [],
+      "exclude": ["ban-types", "no-cond-assign", "no-explicit-any"]
+    }
+  }
+}
